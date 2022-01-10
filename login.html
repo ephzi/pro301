@@ -1,0 +1,18 @@
+<div class="panel panel-primary">
+  <div class="panel-heading text-lg">Log in!
+    <small class="floatItRight">
+        <button class="btn btn-warning" ng-click="goToRegistration()">Register</button> 
+  </small>
+  </div>
+  <div class="panel-body">
+    <form novalidate class="form-group">
+      Username:
+      <input type="text" id= "username" class=" form-control" ng-model="user.name" />
+      <br /> Password:
+      <input type="password" id="password" class=" form-control" ng-model="user.pwd" />
+      <br />
+      <input class="login btn btn-primary" type="submit" ng-click="doLogin(user)" value="Log Me In!" />
+    </form>
+
+  </div>
+</div>

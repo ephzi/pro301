@@ -1,0 +1,20 @@
+<div class="panel panel-primary">
+  <div class="panel-heading text-lg">Register!
+  
+  </div>
+  <div class="panel-body">
+    <form novalidate class="form-group row container-fluid ">
+      First Name:
+       <input type="text" class="form-control" ng-model="newUser.fName" />
+       Last Name:
+       <input type="text" class="form-control " ng-model="newUser.lName" />
+      Username:
+      <input type="text" class="form-control" ng-model="newUser.name" />
+      <br /> Password:
+      <input type="password" class="form-control" ng-model="newUser.pwd" />
+      <br />
+      <input class="login btn btn-primary" type="submit" ng-click="registerUser(newUser)" value="Register Me!" />
+    </form>
+  
+  </div>
+</div>
